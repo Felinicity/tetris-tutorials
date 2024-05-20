@@ -1,4 +1,4 @@
-# How to stack like Xie
+# How to Stack Like Xie
 
 Hi. I apologize in advance for being bad at explaining things.
 
@@ -14,39 +14,40 @@ Have you ever thought about why these specific placements? Why not just start wi
 
 ![image](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/d8bc3eec-7a18-46ce-9449-3170d21227ea)
 
-How is this board state any different from the ones on four.lol? The answer is residue
+How is this board state any different from the ones on four.lol? The answer is the _residue_.
 
 ## Residue
 
-If you asked me about Xie stacking recently, I probably yapped to you about residue, but never properly explained what it is and how it is defined. When I talk about residue, what I truly mean is the extra blocks on top of a box shape. Any box shape works,
-it doesn't matter what width and height it is. Here are a few examples, the grey part is the box and the colorful parts are the residue.
+If you asked me about Xie stacking recently, I've probably yapped to you about residue, but never properly explained what it is and how it is defined. When I talk about residue, what I truly mean is the extra blocks on top of a box shape. Any box shape works, it doesn't matter what width and height it is. 
+Here are a few examples, the grey part is the box and the colorful parts are the residue.
 
 ![Без названия (9)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/ad58a5a6-516f-4072-9bcc-219644f2b575)
 
-Pic above is an 8-wide stack with a 5 block residue.
+Pic above is an 8-wide stack with a 5-block residue.
 
 ![Без названия (10)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/dbacac25-1432-4a97-bb5b-2fd0c1df2e8e)
 
-6-wide stack with a 2 block residue
+6-wide stack with a 2-block residue.
 
 ![Без названия (11)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/3860f187-ab76-4b93-9170-50fe74d5372d)
 
 
-9-wide stack with a 12 block residue
+9-wide stack with a 12-block residue.
 
 ![Без названия (12)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/d9a08428-b8da-490f-9bf6-c63fabe5ff7c)
 
 
-And lastly, a 2w with 2 block residue and a 7w with a 13 block residue
+And lastly, a 2w with 2-block residue and a 7w with a 13-block residue.
 
-## What makes 4-wide combo possible to combo...
+## What makes 4-wide possible to combo...
 
-...is the 3-block residue that your 4-wide well has. It is at the very bottom of the matrix, but nonetheless, it's still a 4-wide stack with a 3-residue in it.
+...is the 3-block residue that your 4-wide area has. It is at the very bottom of the matrix, but nonetheless, it's still a 4-wide stack with a 3-residue in it.
 
 ![Без названия (2)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/488585e8-2972-4f18-bf07-3964304c4ca4)
 
 
-Now that you know that, you can make up your own 4-wide openers. You don't need a flat Z or T specifically, you just need to make sure that your opener adds those 3 blocks of residue to the 4-wide. You do this by having any 3 blocks of a piece inside the 4-wide, and one block on one of the sides. The part of the piece that becomes the 3 block residue is highlighted with a different color.
+Now that you know that, you can make up your own 4-wide openers. You don't need a flat Z or T specifically, you just need to make sure that your opener adds those 3 blocks of residue to the 4-wide. You do this by having any 3 blocks of a piece inside the 4-wide, and one block on one of the sides. 
+The part of the piece that becomes the 3-block residue is highlighted with a different color:
 
 ![Без названия](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/fbad7801-4a88-4a83-b939-f46cb28c331a)
 
@@ -57,19 +58,19 @@ A "real" stack is one that is separated from other stacks by a well. The obvious
 
 ![Без названия (13)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/32579eec-d0e0-46cb-b336-c9e2f6af3dca)
 
-I consider this matrix as having two real stacks: a 7-wide and a 2-wide, because there's really no way you'll be placing a single piece on both of them at the same time. The only way to go back to a 9-wide stack is to stack up on the 2-wide stack with Z and T pieces until it's flatter. In a Kezdabez video on stacking, he tells you to stack up at the lowest part of your stack. This is actually done to have one wide stack instead of two or three narrow stacks, because wider stacks have more options.
+I consider this matrix as having two real stacks: a 7-wide and a 2-wide, because there's really no way you'll be placing a single piece on both of them at the same time. The only way to go back to a 9-wide stack is to stack up on the 2-wide stack with Z and T pieces until it's flatter. In Kezdabez's video on stacking, he tells you to stack up at the lowest part of your stack. This is actually done to have one wide stack instead of two or three narrow stacks because wider stacks have _more options_.
+
 
 Sometimes, we don't have a real separation between stacks, but it's easier to think for us that they're separated. For example, an ST stack can have this kind of board state:
 
 ![Без названия (14)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/87e7ed16-d784-43eb-b7da-c2b1a08296fc)
 
-If you understand everything so far, you'll see it as a 7-wide stack with 2 block residue (highlighted in yellow). But in the mind of an ST stacker, it's still a 4-wide stack with 2 residue and a 3-wide stack with 0 residue (i.e. it's entirely flat). That's what I call a logical stack
-separation - there's no wall, they're equal in height, and there is no well of any width between them - but we still separate them as if there's an invisible wall that must not be touched. Most ST stackers will always adhere to the following separation, and they will always make it work:
+If you understand everything so far, you'll see it as a 7-wide stack with a 2-block residue (highlighted in yellow). But in the mind of an ST stacker, it's still a 4-wide stack with 2 residue and a 3-wide stack with 0 residue (i.e. it's entirely flat). 
+That's what I call a logical stack separation - there's no wall, they're equal in height, and there is no well of any width between them - but we still separate them as if there's an invisible wall that must not be touched. Most ST stackers will always adhere to the following separation, and they will always make it work:
 
 ![image](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/502781c4-4f06-4d80-ba5f-9a01989b440d)
 
-Another example is in how most people describe the 6-wide stack of a 6-3 sprint. Separating it into "here goes O pieces, here goes S pieces, here goes Z pieces". You can watch
-a sprint run where the separation is never broken in this sprint run by MAXICUBI.
+Another example is in how most people describe the 6-wide stack of a 6-3 sprint. Separating it into "here goes O pieces, here goes S pieces, here goes Z pieces". You can watch a sprint run where the separation is never broken in this sprint run by MAXICUBI.
 
 https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/5a71969d-6dff-4fd0-9439-c559f8d8c03c
 
@@ -77,11 +78,11 @@ Very few people actually stack this way, but they will still see the stack as a 
 
 ## So how does this all relate to Xie stacking?
 
-When most people try to explain Xie stacking, they see the obvious stuff - there's a 2-wide with 1 residue, a second one next to it, and a 2-wide with 0 residue where you place a copious amount of O pieces. And the O pieces are always placed in the columns 5 and 6, where you can just hard drop them without moving. Like this:
+When most people try to explain Xie stacking, they see the obvious stuff - there's a 2-wide with 1 residue, a second one next to it, and a 2-wide with 0 residue where you place a copious amount of O pieces. And the O pieces are always placed in columns 5 and 6, where you can just hard-drop them without moving, like this:
 
 ![image](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/72604f8a-abd1-4e33-b4b0-e63288636f0b)
 
-This is not entirely wrong, but those are not the logical stacks that Xie uses in his runs. His logical stacks are actually a 1-res 2-wide, and a 1-res 4-wide. If you were to draw an imaginary line in between them, this would be it
+This is not entirely wrong, but those are not the logical stacks that Xie uses in his runs. His logical stacks are actually a 1-res 2-wide, and a 1-res 4-wide. If you were to draw an imaginary line in between them, this would be it:
 
 ![image](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/2736fb60-090b-4b0d-b2f1-1502bf1b2203)
 
@@ -99,24 +100,25 @@ Third of all, it's just a nicer board state than a 3-res most of the time.
 
 ## How do you actually Xie stack?
 
-You start by creating the one block residue, and from there, you simply stack the 4-wide flat like any other stack, while using the 1-res 2-wide as a place for Ts, Zs, and Ss.
+You start by creating a 1-block residue, and from there, you simply stack the 4-wide flat like any other stack, while using the 1-res 2-wide as a place for Ts, Zs, and Ss.
 
-Really the only way to do that is with a T, J, or vertical L, which are the openers I'm sure you all know about
+Really the only way to do that is with a T, J, or vertical L, which are the openers I'm sure you all know about:
 
 ![Без названия (3)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/341b07b7-44d8-4590-8108-6f564a29e8db)
 
-You can also try to build a 5-res stack. The simplest way to do it is 
+You can also try to build a 5-res stack. The simplest way to do it is:
 
 ![Без названия (4)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/408e9c08-2768-49a3-a3e4-eac037e8b01e)
 
-You choose how you want to stack the 4-wide, there are no limitations. When you do 6-3, there's enough freedom to really limit yourself in stacking, be it avoiding double taps, only placing I pieces in 3rd and 7th columns, or whatever else you come up with. Those kinds of limitations you place on yourself will further reduce how many patterns you need to hold in your head while possibly reducing KPP or MKPP (i.e. will let your hands go faster). With that in mind, maxicube's run you saw earlier is technically Xie stack where they choose to extremely reduce patterns while damaging their KPP.
+You choose how you want to stack the 4-wide, there are no limitations. When you do 6-3, there's enough freedom to really limit yourself in stacking, be it avoiding double taps, only placing I pieces in 3rd and 7th columns, or whatever else you come up with. Those kinds of limitations you place on yourself will further reduce how many patterns you need to hold in your head while possibly reducing KPP or MKPP (i.e. will let your hands go faster). 
+With that in mind, Maxicubi's run you saw earlier is technically Xie stack where they choose to extremely reduce patterns while damaging their KPP.
 
 ## How do you NOT Xie stack?
 A common mistake is switching to a 3-res 4-wide by accident. Here is how you do it:
 
 ![Без названия (6)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/2ef7f839-30e6-46da-b0df-da1b751de525)
 
-However, there's good new too. These same patterns can be used to go back from a 3-res to a 1-res. For example, if you place a flat I piece and follow it up with a tapback flat T piece, you actually get a 1-res.
+However, there's good news too. These same patterns can be used to go back from a 3-res to a 1-res. For example, if you place a flat I piece and follow it up with a tapback flat T piece, you actually get a 1-res.
 
 ![Без названия (7)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/90eb8f27-6bb2-44fc-b908-3254ba7cbeb0)
 
@@ -132,18 +134,18 @@ Examples:
 
 ![Без названия (8)](https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/104d6acf-1fe5-4637-920e-5c4d4b31d479)
 
-You should really come up with your own though. Some of these are very inefficient in KPP, some are equal. The only patterns that actually reduce your kpp are LOJ, JZJ, LSL, IOO boxes with a T piece on top, and they probably won't make you faster without DAS preservation because the MKPP is equal without it
+You should really come up with your own though. Some of these are very inefficient in KPP, some are equal. The only patterns that actually reduce your KPP are LOJ, JZJ, LSL, IOO boxes with a T piece on top, and they probably won't make you faster without DAS preservation because the MKPP is equal without it
 
 ## But what if I don't know LST?
 
-I've been typing this document for 3 hours straight, I'll get RSI if I continue. I'll probably explain when I get back to this document (probably never because I often forget)
+I've been typing this document for 3 hours straight, I'll get RSI if I continue. I'll probably explain when I return to this document (probably never because I often forget)...
 
 ## Example run
 
-I've been told there's nothing to say about it, and that simply recording it will be enough. I was going to record a commentary video, but I don't know what to say at all about this run. I could come up with ways to get less KPP, but it won't teach anyone how to keep a 1-res stack
+I've been told there's nothing to say about it, and that simply recording it will be enough. I was going to record a commentary video, but I don't know what to say at all about this run. I could come up with ways to get less KPP, but it won't teach anyone how to keep a 1-res stack.
 
 https://github.com/strawberrymilk1134/tetris-tutorials/assets/57014208/2618662f-867a-4e43-885c-db525c15ead2
 
 # Summary
 
-Xie stacking is when you stack a 1-residue 4-wide in columns 3, 4, 5, 6, and stack 4x4 boxes in column 7, 8, 9, 10
+Xie stacking is when you stack a 1-residue 4-wide in columns 3, 4, 5, 6, and stack 4x4 boxes in columns 7, 8, 9, 10.
